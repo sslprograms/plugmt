@@ -885,7 +885,7 @@ class menu():
     def __init__(self):
         pass
     
-    def paid_menu(self):
+    def paid_menu():
         print(': Welcome to PLUG Multi-Purpose Tool\n')
         print('███████████████████████████████████████████████████████████████████████████')
         print('''
@@ -920,6 +920,6 @@ class menu():
         selections = [selection_features.select_cookie_checker, selection_features.select_proxy_checker, selection_features.select_verified_checker, selection_features.select_display_name_bot, selection_features.select_desc_bot, selection_features.select_change_gender, selection_features.select_change_theme, selection_features.select_change_country, selection_features.select_change_social, selection_features.select_credit_checker, selection_features.select_secure_signout, selection_features.select_robux_checker, selection_features.select_trade_spammer, selection_features.select_buy_model, selection_features.select_favorite, selection_features.select_friend_req, selection_features.select_send_pm, selection_features.select_username_gen, selection_features.select_proxy_scraper, selection_features.select_limited_sniper, selection_features.select_online_bot, selection_features.select_visit_bot, selection_features.select_equip_bot, selection_features.unequip_bot, selection_features.select_buy_asset , selection_features.select_report_bot, selection_features.select_group_ally, selection_features.select_cookie_killer, selection_features.select_desc_bot, selection_features.select_game_join, selection_features.select_random_avatar, selection_features.select_cookie_gen, selection_features.select_group_join, selection_features.select_game_follow, selection_features.select_follow_bot]
         selections[int(selected) - 1]()
 
-
-menu()
+run = menu
+run.paid_menu()
 
